@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-ner-highlighter",
+  "name": "NER Highlighter",
+  "description": "A plugin to highlight named entities in the current note",
+  "version": "0.0.1",
+  "minAppVersion": "0.13.8",
+  "author": "Shayn Weidner",
+  "isDesktopOnly": true
+}

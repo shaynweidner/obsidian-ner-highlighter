@@ -1,0 +1,35 @@
+{
+  "name": "obsidian-ner-highlighter",
+  "version": "0.0.1",
+  "description": "A plugin to highlight named entities in the current note",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@codemirror/rangeset": "^0.19.7",
+    "@codemirror/state": "^0.19.9",
+    "@codemirror/view": "^0.19.42",
+    "@types/jest": "^26.0.22",
+    "@types/lodash": "^4.14.178",
+    "@types/lokijs": "^1.5.7",
+    "@types/webpack": "^5.28.0",
+    "css-loader": "^6.6.0",
+    "copy-webpack-plugin": "^10.0.0",
+    "lint-staged": "^11.2.4",
+    "obsidian": "^1.4.11",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.2.5",
+    "ts-loader": "^8.1.0",
+    "ts-node": "^10.5.0",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "compromise": "^13.11.2",
+    "lodash": "^4.17.21",
+    "lokijs": "^1.5.12",
+    "tiny-typed-emitter": "^2.1.0"
+  }
+}

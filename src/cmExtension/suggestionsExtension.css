@@ -1,0 +1,89 @@
+.cm-suggestion-candidate-place {
+  position: relative;
+  border-bottom: 2px solid blue;
+  display: inline-block;
+}
+
+.cm-suggestion-candidate-place::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: blue;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+.cm-suggestion-candidate-person {
+  position: relative;
+  border-bottom: 2px solid green;
+  display: inline-block;
+}
+
+.cm-suggestion-candidate-person::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+.cm-suggestion-candidate-organization {
+  position: relative;
+  border-bottom: 2px solid red;
+  display: inline-block;
+}
+
+.cm-suggestion-candidate-organization::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+.cm-suggestion-candidate-acronym {
+  position: relative;
+  border-bottom: 2px solid purple;
+  display: inline-block;
+}
+
+.cm-suggestion-candidate-acronym::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: purple;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+.cm-suggestion-candidate-mention {
+  position: relative;
+  border-bottom: 2px solid orange;
+  display: inline-block;
+}
+
+.cm-suggestion-candidate-mention::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: orange;
+  opacity: 0.25;
+  z-index: -1;
+}
